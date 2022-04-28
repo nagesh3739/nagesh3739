@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: myfirstdeployment
-        image: ngnix
+        image: nginx
         resources:
           limits:
             memory: "128Mi"
